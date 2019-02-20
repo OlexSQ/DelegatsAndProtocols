@@ -23,6 +23,7 @@ class VCInitial: UIViewController, VCFinalDelegate {
     
     func finishPassing(string: String) {
         print("Notified")
+        print(string)
     }
     
 }
